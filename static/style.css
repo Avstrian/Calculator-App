@@ -1,0 +1,65 @@
+main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 200px;
+}
+
+input {
+    min-width: 150px;
+    min-height: 50px;
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+button {
+    min-height: 50px;
+    min-width: 50px;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
+    border: black;
+    border-style: solid;
+    border-width: 10px;
+    border-radius: 10px 10px 10px 10px;
+    padding: 20px;
+    background-color: darkgray;
+}
+
+.inputContainer {
+    background-color: thistle;
+}
+
+.buttonContainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 16px;
+    min-width: 50px;
+}
+
+.operatorContainer {
+    display: flex;
+    flex-direction: column;
+}
+
+.operatorContainer button {
+    background-color: salmon;
+    border-radius: 15px 15px 15px 15px;
+}
+
+#equals button{
+    background-color: thistle;
+    color: black;
+    font-size: 40px;
+    font-weight: bolder;
+    min-height: 200px;
+}
+

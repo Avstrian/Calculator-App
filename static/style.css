@@ -81,11 +81,19 @@ h1 {
     border-radius: 15px 15px 15px 15px;
 }
 
+.operatorContainer button:hover {
+    background-color: lightsalmon;
+}
+
 #equals button{
     background-color: thistle;
     color: black;
     font-size: 40px;
     font-weight: bolder;
     min-height: 200px;
+}
+
+#equals button:hover {
+    background-color: rgb(160, 148, 160);
 }
 
